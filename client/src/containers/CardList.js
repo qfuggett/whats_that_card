@@ -1,9 +1,9 @@
 import React from "react";
+import _ from "lodash";
+import {GetCards} from "../actions/cardActions";
 
 const CardList = () => {
-    return(
-        <div>Card List</div>
-    )
+
 }
 
 export default CardList

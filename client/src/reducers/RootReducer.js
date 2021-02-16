@@ -1,6 +1,8 @@
 import {combineReducers} from "redux";
-import cardReducer from "./cardReducer";
+import cardListReducer from "./cardListReducer";
 
-const RootReducer = combineReducers({reducers: { cardReducer }} );
+const RootReducer = combineReducers({reducers: { 
+    CardList: cardListReducer 
+}} );
 
 export default RootReducer;

@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';
 import {Switch, Route, NavLink, Redirect} from "react-router-dom";
-import Card from './containers/Card';
 import CardList from './containers/CardList';
+import Card from './components/Card'
 
 function App() {
   return (
